@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A009AC34214C24130042EAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A009AC33214C24130042EAE8 /* AppDelegate.swift */; };
-		A009AC36214C24130042EAE8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A009AC35214C24130042EAE8 /* GameScene.sks */; };
-		A009AC38214C24130042EAE8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A009AC37214C24130042EAE8 /* Actions.sks */; };
+		A009AC36214C24130042EAE8 /* Level-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = A009AC35214C24130042EAE8 /* Level-1.sks */; };
 		A009AC3A214C24130042EAE8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A009AC39214C24130042EAE8 /* GameScene.swift */; };
 		A009AC3C214C24130042EAE8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A009AC3B214C24130042EAE8 /* GameViewController.swift */; };
 		A009AC3F214C24130042EAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A009AC3D214C24130042EAE8 /* Main.storyboard */; };
@@ -17,6 +16,9 @@
 		A009AC44214C24260042EAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A009AC42214C24260042EAE8 /* LaunchScreen.storyboard */; };
 		A009AC4F214C24270042EAE8 /* Orange_treeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A009AC4E214C24270042EAE8 /* Orange_treeTests.swift */; };
 		A009AC5A214C24270042EAE8 /* Orange_treeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A009AC59214C24270042EAE8 /* Orange_treeUITests.swift */; };
+		A009AC68214C24C60042EAE8 /* Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A009AC67214C24C60042EAE8 /* Smashing-Things.atlas */; };
+		A009AC6A214C29510042EAE8 /* orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A009AC69214C29510042EAE8 /* orange.swift */; };
+		A07727832154248C00207BA4 /* Level-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = A07727822154248C00207BA4 /* Level-2.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,7 @@
 /* Begin PBXFileReference section */
 		A009AC30214C24130042EAE8 /* Orange tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orange tree.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A009AC33214C24130042EAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A009AC35214C24130042EAE8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A009AC37214C24130042EAE8 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A009AC35214C24130042EAE8 /* Level-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-1.sks"; sourceTree = "<group>"; };
 		A009AC39214C24130042EAE8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A009AC3B214C24130042EAE8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A009AC3E214C24130042EAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +54,9 @@
 		A009AC55214C24270042EAE8 /* Orange treeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orange treeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A009AC59214C24270042EAE8 /* Orange_treeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_treeUITests.swift; sourceTree = "<group>"; };
 		A009AC5B214C24270042EAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A009AC67214C24C60042EAE8 /* Smashing-Things.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Smashing-Things.atlas"; sourceTree = "<group>"; };
+		A009AC69214C29510042EAE8 /* orange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orange.swift; sourceTree = "<group>"; };
+		A07727822154248C00207BA4 /* Level-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-2.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +107,13 @@
 		A009AC32214C24130042EAE8 /* Orange tree */ = {
 			isa = PBXGroup;
 			children = (
+				A009AC67214C24C60042EAE8 /* Smashing-Things.atlas */,
 				A009AC33214C24130042EAE8 /* AppDelegate.swift */,
-				A009AC35214C24130042EAE8 /* GameScene.sks */,
-				A009AC37214C24130042EAE8 /* Actions.sks */,
+				A009AC35214C24130042EAE8 /* Level-1.sks */,
+				A07727822154248C00207BA4 /* Level-2.sks */,
 				A009AC39214C24130042EAE8 /* GameScene.swift */,
 				A009AC3B214C24130042EAE8 /* GameViewController.swift */,
+				A009AC69214C29510042EAE8 /* orange.swift */,
 				A009AC3D214C24130042EAE8 /* Main.storyboard */,
 				A009AC40214C24260042EAE8 /* Assets.xcassets */,
 				A009AC42214C24260042EAE8 /* LaunchScreen.storyboard */,
@@ -202,13 +208,16 @@
 				TargetAttributes = {
 					A009AC2F214C24130042EAE8 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					A009AC49214C24270042EAE8 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = A009AC2F214C24130042EAE8;
 					};
 					A009AC54214C24270042EAE8 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = A009AC2F214C24130042EAE8;
 					};
 				};
@@ -238,11 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A009AC68214C24C60042EAE8 /* Smashing-Things.atlas in Resources */,
 				A009AC3F214C24130042EAE8 /* Main.storyboard in Resources */,
-				A009AC36214C24130042EAE8 /* GameScene.sks in Resources */,
+				A009AC36214C24130042EAE8 /* Level-1.sks in Resources */,
+				A07727832154248C00207BA4 /* Level-2.sks in Resources */,
 				A009AC41214C24260042EAE8 /* Assets.xcassets in Resources */,
 				A009AC44214C24260042EAE8 /* LaunchScreen.storyboard in Resources */,
-				A009AC38214C24130042EAE8 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +280,7 @@
 				A009AC3A214C24130042EAE8 /* GameScene.swift in Sources */,
 				A009AC3C214C24130042EAE8 /* GameViewController.swift in Sources */,
 				A009AC34214C24130042EAE8 /* AppDelegate.swift in Sources */,
+				A009AC6A214C29510042EAE8 /* orange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mel.Orange-tree";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -469,7 +480,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mel.Orange-tree";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -489,7 +500,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mel.Orange-treeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orange tree.app/Orange tree";
 			};
@@ -510,7 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mel.Orange-treeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orange tree.app/Orange tree";
 			};
@@ -530,7 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mel.Orange-treeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Orange tree";
 			};
@@ -550,7 +561,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mel.Orange-treeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Orange tree";
 			};
